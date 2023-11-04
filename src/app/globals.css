@@ -2,26 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+body{
+  background: #F3F4FD;
+
+}
+.shadow-custom {
+  box-shadow: 3px 3px 3px 0px rgba(196, 206, 218, 0.51), -3px -3px 8px 4px #FFF, 11px 11px 20px -5px rgba(176, 196, 219, 0.53), 1px 1px 1px 0px #FFF inset;
+}
+.blur-12 {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px); /* For Safari */
+}
+/* Create a custom class for the gradient shadow */
+.bg-gradient-to-b {
+  background: linear-gradient(to bottom, transparent, rgba(36, 21, 102, 0.04));
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.color{
+  background: #001447;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+
+
+
