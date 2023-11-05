@@ -11,7 +11,7 @@ function Navbar () {
        <div className="flex bg-gradient-to-b">
        <nav >
       <ul className="flex flex-row items-center gap-10 my-4 mx-60">
-        <li className="s text-blue-700 font-inter text-3xl font-bold ">double your net worth
+        <li className="text-blue-700 font-inter text-3xl font-bold ">double your net worth
         <span className="text-blue-700 font-inter text-base font-bold">.club</span></li>
         <li className="text-blue-700 font-inter text-[15.805px] font-medium">How it works</li>
         <li className="text-blue-700 font-inter text-[16.07px] font-medium">Leaderboard</li>
