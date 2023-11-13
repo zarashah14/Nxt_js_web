@@ -10,6 +10,8 @@ export default function Home() {
       <div className="bg-custom custom-drop-shadow">
       <Navbar/>
       <Section1/>
+
+      <br/>
       <h1 className='p-10 m-10'>This my app content here</h1>
       <Footer/>
     

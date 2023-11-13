@@ -21,6 +21,81 @@ body{
 .color{
   background: #001447;
 }
+.mycolor{
+  border-radius: 16px;
+  background: linear-gradient(0deg, #F3F4FD 0%, #F3F4FD 100%), #CFD8DC;
+  box-shadow: 16px 16px 40px 0px rgba(187, 195, 206, 0.60), -16px -16px 40px 0px rgba(253, 255, 255, 0.80);
+}
+.myblue{
+  border-radius: 16px;
+  background: linear-gradient(0deg, #0070BA 0%, #0070BA 100%), #CFD8DC;
+  
+  box-shadow: 4px 4px 12px 0px rgba(187, 195, 206, 0.60), -4px -4px 12px 0px rgba(253, 255, 255, 0.80);
+  
+}
+.mypurpl{
+  border-radius: 16px;
+background: linear-gradient(0deg, #635BFF 0%, #635BFF 100%), #CFD8DC;
+box-shadow: 4px 4px 12px 0px rgba(187, 195, 206, 0.60), -4px -4px 12px 0px rgba(253, 255, 255, 0.80);
+}
+
+.last{
+  border-radius: 16px;
+background: rgba(0, 47, 167, 0.56);
+
+}
+.bigbtn{
+  border-radius: 20px;
+background: linear-gradient(94deg, #F2F6FF 64.06%, #FFF 100%);
+box-shadow: -4px -4px 4px 0px #BECCE5 inset, 2px 2px 4px 0px #FFF inset, -10px -10px 20px 0px rgba(255, 255, 255, 0.50), 20px 20px 20px 0px #BECCE6, -20px -20px 40px 0px #FFF, 20px 20px 40px 0px #D9E1F2;
+}
+.sidebtn{
+  border-radius: 16px;
+background: #75E0E6;
+box-shadow: 20px 20px 40px 0px rgba(76, 234, 242, 0.40);
+}
+.rightbtn{
+  fill: linear-gradient(0deg, #F3F4FD 0%, #F3F4FD 100%), #CFD8DC;
+box-shadow: 4px 4px 12px 0px rgba(187, 195, 206, 0.60) inset, -4px -4px 12px 0px rgba(253, 255, 255, 0.80) inset;
+}
+
+.circle{
+fill: rgba(255, 255, 255, 0.00);
+stroke-width: 1px;
+stroke: #C1D3F5;
+filter: drop-shadow(1px 1px 0px rgba(255, 255, 255, 0.50));
+}
+
+.thirdcardbtn{
+  border-radius: 20px;
+background: linear-gradient(94deg, #002FA7 43.01%, #4E5C96 100%);
+box-shadow: -4px -4px 4px 0px #002FA7 inset, 2px 2px 4px 0px #002FA7 inset, 10px 10px 30px 0px rgba(26, 31, 80, 0.50);
+}
+.thrdbtn{
+  border-radius: 16px;
+background: #FF7262;
+box-shadow: 20px 20px 40px 0px rgba(242, 76, 76, 0.40);
+}
+.midbigtn{
+  border-radius: 20px;
+background: linear-gradient(94deg, #F2F6FF 64.06%, #FFF 100%);
+box-shadow: -4px -4px 4px 0px #BECCE5 inset, 2px 2px 4px 0px #FFF inset, -10px -10px 20px 0px rgba(255, 255, 255, 0.50), 20px 20px 20px 0px #BECCE6, -20px -20px 40px 0px #FFF, 20px 20px 40px 0px #D9E1F2;
+}
+.midbtn{
+border-radius: 16px;
+background: #AEE3C4;
+box-shadow: 20px 20px 40px 0px rgba(89, 242, 76, 0.40);
+}
+.fourthbtn{
+border-radius: 20px;
+background: linear-gradient(94deg, #3EBDB6 64.06%, #66C264 100%);
+box-shadow: -4px -4px 4px 0px #2675BE inset, 2px 2px 4px 0px rgba(155, 130, 237, 0.50) inset, 10px 10px 30px 0px rgba(190, 184, 38, 0.65);
+}
+.ftbtn{
+ border-radius: 16px;
+background: #DDC077;
+box-shadow: 20px 20px 40px 0px rgba(247, 255, 150, 0.30);
+}
 
 
 
